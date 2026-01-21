@@ -1,0 +1,119 @@
+.Homepage-hero-section{
+    padding: 100px;
+}
+
+.Homepage-hero-section-top{
+    display: flex;
+    justify-content: center;
+    gap : 50px;
+}
+
+.ecosystem{
+    width: 600px;
+}
+
+.Homepage-hero-section-top-left{
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.Homepage-hero-section-top-left h1{
+    opacity: 0.9;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.Homepage-hero-section-top-left  h2{
+    margin-bottom: 10px;
+}
+
+.Homepage-hero-section-top-left p{
+    margin-bottom : 20px;
+}
+
+.Homepage-hero-section-top-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 10px;
+}
+
+
+.Homepage-hero-section-top-right div{
+    display: flex;
+    gap : 30px;
+    font-size: 18px;
+}
+.Homepage-hero-section-top-right a{
+    text-decoration: none;
+    
+}
+
+.press-logo-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+/* Bottom styling ############################## */
+
+.Homepage-hero-section-bottom{
+    margin-top: 120px;
+}
+.Homepage-hero-section-bottom-top{
+    display: flex;
+}
+
+.Homepage-hero-section-bottom-top-right img{
+    width: 140px;
+} 
+
+
+.Homepage-hero-section-bottom-top-right{
+    display: flex;
+}
+
+.Homepage-hero-section-bottom-top-right p{
+    font-size: 8px;
+    letter-spacing: 0.3px;
+    margin-top:50px;
+    margin-right: 1px;
+}
+
+.Homepage-hero-section-bottom-top-left h1{
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.Homepage-hero-section-bottom-top-left p{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.Homepage-hero-section-bottom-top-left a{
+    text-decoration: none;
+}
+
+.Homepage-hero-section-bottom-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 100px;
+    margin-top : 50px;
+}
+
+.Homepage-hero-section-bottom-down div h1{
+    font-weight: 400;
+    margin-bottom : 30px;
+}
+
+.Homepage-hero-section-bottom-down div p{
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.Homepage-hero-section-bottom-down div a{
+    text-decoration : none;
+}

@@ -1,0 +1,30 @@
+.heading-para-btn{
+    text-align: center;
+    margin-top : 60px;
+}
+
+.heading-para-btn h1{
+    margin-bottom: 20px;
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+.heading-para-btn p{
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.heading-para-btn button{
+    width: auto;
+    padding: 12px 30px;
+    font-size: 1.3rem;
+    background-color: #387ED1;
+    color : white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+.heading-para-btn button:hover{
+    background-color: black;
+}
