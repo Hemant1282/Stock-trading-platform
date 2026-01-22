@@ -4,13 +4,17 @@
     justify-content: space-between;
     padding : 20px 80px;
     border-bottom: 0.5px solid rgba(128,128,128,0.3);
-    position:fixed;
+    position:sticky;
     width: 100vw;
     background-color: white;
     z-index: 1000;
+    top : 0;
 }
 
 
+.nav-logo{
+    cursor: pointer;
+}
 .nav-links{
     display: flex;
     align-items: center;
@@ -20,9 +24,14 @@
 
 .nav-links a{
     text-decoration: none;
+    color : grey;
 }
 
+.nav-links a:hover{
+    color : blue;
+}
 .hamburger-menu{
     font-size: 20px;
+    cursor: pointer;
 }
 

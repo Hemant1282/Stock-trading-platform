@@ -74,3 +74,21 @@
     font-size: larger;
     color: grey;
 }
+
+.footer-account p:hover{
+    color : blue;
+    cursor : pointer;
+}
+
+.footer-support p:hover{
+    color : blue;
+    cursor: pointer;
+}
+.footer-Company p:hover{
+    color : blue;
+    cursor: pointer;
+}
+.footer-quicklinks p:hover{
+    color : blue;
+    cursor: pointer;
+}
