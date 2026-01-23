@@ -6,12 +6,17 @@ import AboutPage from "./components/AboutPage/AboutPage.jsx"
 import ProductsPage from "./components/ProductsPage/ProductsPage.jsx"
 import PricingPage from "./components/PricingPage/PricingPage.jsx"
 import SupportPage from "./components/SupportPage/SupportPage.jsx"
-
 import { Routes,Route } from "react-router-dom";
+
+//Logic files
+import ScrollToTop from "./Logic/ScrollToTop.jsx";
+
+
 
 function App() {
   return ( 
     <>
+      <ScrollToTop></ScrollToTop>
       <Navbar></Navbar>
         <Routes>
           <Route path = "/" element = {<HomePage></HomePage>}></Route>

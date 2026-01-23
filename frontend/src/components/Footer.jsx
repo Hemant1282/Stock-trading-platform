@@ -9,7 +9,8 @@ function Footer() {
             <div className="footer-logo">
               <img className="logo" src={icon} alt="logo" />
               <p>
-                © 2010 - 2025, Zerodha Broking Ltd.<br></br>All rights reserved.
+                © 2010 - 2025, Zerodha Broking Ltd.<br></br>
+                All rights reserved.
               </p>
               <div className="footer-logo-icons-up">
                 <i class="fa-brands fa-x-twitter"></i>
