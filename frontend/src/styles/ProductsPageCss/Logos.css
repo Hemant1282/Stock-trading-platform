@@ -1,0 +1,38 @@
+.logos{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.logos h2{
+    margin-bottom: 80px;
+    font-weight: 400;
+}
+
+.logos h1{
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.logos-list img{
+    width: 200px;
+}
+
+.logos-list{
+    padding: 0 60px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    gap : 50px;
+    justify-content: center;
+    align-items: center;
+    row-gap : 60px;
+}
+.logos-list div{
+    flex-grow: 1;
+}
+
+.logos-list p{
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}

@@ -1,9 +1,9 @@
 import "../../styles/HomePageCss/HeroSection.css"
-import ecosystem from "../../assets/ecosystem.png"
-import presslogo from "../../assets/press-logos.png"
-import zerocoin from "../../assets/pricing-eq.svg"
-import twocoin from "../../assets/other-trades.svg"
-import varsityimage from "../../assets/index-education.svg"
+import ecosystem from "../../assets/HomePageAssets/ecosystem.png"
+import presslogo from "../../assets/HomePageAssets/press-logos.png"
+import zerocoin from "../../assets/HomePageAssets/pricing-eq.svg"
+import twocoin from "../../assets/HomePageAssets/other-trades.svg"
+import varsityimage from "../../assets/HomePageAssets/index-education.svg"
 
 function HeroSection() {
     return (

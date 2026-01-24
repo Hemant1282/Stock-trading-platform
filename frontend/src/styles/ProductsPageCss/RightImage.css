@@ -1,0 +1,17 @@
+.right-image {
+    display: flex;
+    align-items: center;
+    margin-top : 50px;
+    padding: 0 50px;
+}
+
+.right-image-right{
+    display: flex;
+    flex-direction: column;
+    gap : 30px;
+    line-height: 30px;
+}
+
+.right-image-right a{
+    text-decoration: none;
+}

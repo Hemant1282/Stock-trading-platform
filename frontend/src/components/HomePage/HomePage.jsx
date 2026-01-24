@@ -1,4 +1,4 @@
-import LandingPage from "../../assets/landing.svg";
+import LandingPage from "../../assets/HomePageAssets/landing.svg";
 import Head_para_btn from "./Head_para_btn";
 import HeroSection from "./HeroSection";
 import "../../styles/HomePageCss/HomePage.css";
