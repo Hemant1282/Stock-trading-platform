@@ -1,0 +1,72 @@
+.about-page{
+    padding: 0 150px;
+}
+
+.about-hero{
+    width: 100%;
+    height: auto;
+}
+
+.about-page > h1{
+    text-align: center;
+    margin-top: 60px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 70px;
+}
+
+.about-hero{
+    display: flex;
+    margin-top : 50px;
+    gap : 60px;
+    justify-content: center;
+}
+
+.about-hero-left,.about-hero-right{
+    flex-grow: 1;
+    
+}
+.about-hero-right p{
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+}
+
+.about-hero-left p{
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+}
+
+.about-bottom{
+    padding: 50px;
+}
+
+.about-bottom > h1{
+    text-align: center;
+    margin-top : 100px;
+    margin-bottom: 80px;
+    font-weight: 500;
+}
+
+.about-bottom-last{
+    display: flex;
+    justify-content: center;
+    gap : 50px;
+}
+
+.profile > img{
+    width: 300px;
+    border-radius : 50%;
+}
+
+.profile-metadata p{
+    line-height: 30px;
+    margin-bottom : 20px;
+}
+
+.profile{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+}
