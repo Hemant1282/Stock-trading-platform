@@ -1,0 +1,58 @@
+.box-container{
+    margin-top: 80px;
+}
+
+.box-container> h1{
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.box-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 40px;
+    padding: 0 80px;
+    margin-top: 50px;
+}
+
+.box-list div{
+    width: 340px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0,0.1);
+    border-radius: 4px;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.box-list div::before {
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: 26px;
+    width: 25px;          /* adjust to image size */
+    height: 40px;
+    background: white;    /* same as page background */
+    z-index: 1;
+}
+
+
+.box-list div img{
+    position: absolute;
+    left : -18px;
+    background-color: rgba(0,0,255,0.08);
+    z-index: 2;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.box-list div h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.box-list div:hover{
+    border-color: blue;
+}
