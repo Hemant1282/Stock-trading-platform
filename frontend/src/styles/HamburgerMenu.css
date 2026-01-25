@@ -1,0 +1,27 @@
+.ham-menu{
+    width: 800px;
+    height: 300px;
+    margin-left: 20px;
+    position: absolute;
+    top : 64px;
+    left: 400px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ham-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 50px;
+    margin-bottom: 40px;
+}
+
+.ham-bottom{
+    display: flex;
+    justify-content: center;
+    gap : 50px;
+    align-items: center;
+}
+
+.

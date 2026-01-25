@@ -26,6 +26,10 @@
     color : grey;
 }
 
+.nav-links a:focus{
+    color : blue;
+}
+
 .nav-links a:hover{
     color : blue;
 }

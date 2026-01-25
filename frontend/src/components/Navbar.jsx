@@ -1,12 +1,16 @@
+import { useState } from "react";
 import logo from "../assets/HomePageAssets/logo (1).svg"
 import "../styles/Navbar.css"
 import { Link } from "react-router-dom"
+import HamburgerMenu from "../Logic/HamburgerMenu";
 
 function Navbar() {
+  const [isSelected,setIsSelected] = useState(false);
     return (
       <>
         <div className="nav">
-          <Link to = "/">
+          {isSelected == true ? <HamburgerMenu></HamburgerMenu> : null}
+          <Link to="/">
             <img className="logo nav-logo" src={logo} alt="logo" />
           </Link>
           <div className="nav-links">
@@ -15,7 +19,12 @@ function Navbar() {
             <Link to="/products">Products</Link>
             <Link to="/pricing">Pricing</Link>
             <Link to="/support">Support</Link>
-            <i class="fa-solid fa-bars hamburger-menu"></i>
+            <i
+              class={`fa-solid fa-bars hamburger-menu ${isSelected === true ? "open" : "close"}`}
+              onClick={() => {
+                setIsSelected(!isSelected);
+              }}
+            ></i>
           </div>
         </div>
       </>

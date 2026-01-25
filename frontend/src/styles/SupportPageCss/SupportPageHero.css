@@ -1,0 +1,42 @@
+.support-que{
+    padding: 0 60px;
+}
+
+.que-container{
+    width: 900px;
+    height: auto;
+    border: 1px solid black;
+}
+.que-container-top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.que-container-top-left{
+    display: flex;
+    align-items: center;
+    gap : 20px;
+}
+
+.support-answer{
+    margin-left: 30px;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.support-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.support-answer.active {
+  max-height: 500px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: 0.3s ease;
+}
