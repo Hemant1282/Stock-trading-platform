@@ -1,0 +1,46 @@
+.table-btn{
+    display: flex;
+    justify-content: flex-start;
+    gap : 50px;
+    margin: 100px 80px;
+    border-bottom : 1px solid rgb(0, 0, 0,0.2);
+    padding: 10px 60px;
+}
+
+
+.table-btn button{
+    background-color : white;
+    border: none;
+    font-size: 29px;
+    color : blue;
+    cursor: pointer;
+}
+
+.table-btn button:focus{
+    color: black;
+}
+
+.table-btn button:hover{
+    color: black;
+}
+
+
+.table-space{
+    margin: 0 80px;
+}
+
+
+
+.table-space table,
+.table-space th{
+  border: 1px solid rgb(128, 128, 128,0.3);
+  border-collapse: separate;
+}
+
+.table-space tr:nth-child(even){
+    background-color: rgb(214, 238, 238,0.3);
+}
+
+.table-space>table{
+    border-spacing: 30px;
+}

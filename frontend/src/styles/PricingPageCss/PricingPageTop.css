@@ -1,0 +1,32 @@
+.pricing-top{
+    text-align: center;
+    margin-top : 100px;
+}
+
+.pricing-top h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.pricing-top h2{
+    color : rgba(128,128,128,0.5)
+}
+
+.pricingpagetop{
+    display: flex;
+    justify-content: center;
+    gap : 80px;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.pricingpagetop h2{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.pricingpagetop img{
+    width: 200px;
+}

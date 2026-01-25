@@ -1,6 +1,12 @@
+import PricingPageTop from "./PricingPageTop";
+import PricingTable from "./PricingTable";
+
 function PricingPage() {
-    return ( 
-        <h1>PricingPage</h1>
+    return (
+      <>
+        <PricingPageTop></PricingPageTop>
+        <PricingTable></PricingTable>
+      </>
     );
 }
 
