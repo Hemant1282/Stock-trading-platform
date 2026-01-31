@@ -11,7 +11,7 @@ app.listen(port,()=>{
 
 async function connectDB(){
     return await mongoose.connect(
-      "mongodb+srv://ZerodhaCloneOwner:ndujrlockjqawjhwed@zerodhaclonecluster.rks4uww.mongodb.net/?appName=ZerodhaCloneCluster",
+      process.env.MONGO_URL,
     );
 };
 
