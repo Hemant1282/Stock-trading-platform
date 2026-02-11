@@ -10,7 +10,8 @@ import { Routes,Route } from "react-router-dom";
 
 //Logic files
 import ScrollToTop from "./Logic/ScrollToTop.jsx";
-
+import Register from "./components/Register.jsx";
+import Login from "./components/Login.jsx";
 
 
 
@@ -26,6 +27,8 @@ function App() {
           <Route path = "/products" element = {<ProductsPage></ProductsPage>}></Route>
           <Route path = "/pricing" element = {<PricingPage></PricingPage>}></Route>
           <Route path = "/support" element = {<SupportPage></SupportPage>}></Route>
+          <Route path = "/register" element = {<Register></Register>}></Route>
+          <Route path = "/login" element = {<Login></Login>}></Route>
         </Routes>
       <Footer></Footer>
     </>
